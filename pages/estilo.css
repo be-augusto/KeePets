@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Ubuntu&family=Varela+Round&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif !important;
+  text-decoration: nome;
+  list-style: none;
+}
+
+@media only screen and (max-width: 992px)  {
+  .navbar .navbar-nav img{
+    margin-left: 2.7rem;
+  }
+}
+
+/* NAV BAR*/
+.navbar {
+  background: #7cbfea!important;
+  box-shadow: 0 0 20px rgba(3, 3, 3, 0.2);
+}
+
+.navbar .navbar-brand {
+  font-size: 2rem;
+}
+.navbar .navbar-brand:hover {
+  color: #f0f0f0;
+  transition: 0.2s;
+}
+
+.navbar .navbar-brand .nav-item {
+  color: #000000;
+}
+.navcolor {
+  background-color: #1b88cd;
+}
+
+
+/* BOTAO LOGIN*/
+
+
+.botaotelalogin {
+  background-color: #1b88cd !important;
+  color: white !important;
+}
+
+.botaotelalogin:hover {
+  background-color: white !important;
+  color: #1b88cd !important;
+  border: 1px solid #1b88cd !important
+}

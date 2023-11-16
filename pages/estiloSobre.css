@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Ubuntu&family=Varela+Round&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif !important;
+  text-decoration: nome;
+  list-style: none;
+}
+@media only screen and (max-width: 992px)  {
+  .navbar .navbar-nav img{
+    margin-left: 2.7rem;
+  }
+}
+.name {
+  color: #1b88cd;
+}
+
+/* FOOTER NAVBAR */
+
+.navbar {
+  background: #7cbfea !important;
+  box-shadow: 0 0 20px rgba(3, 3, 3, 0.2);
+  margin-bottom: 20px;
+}
+.navbar .navbar-brand {
+  font-size: 2rem;
+  color: #fff;
+}
+.navbar .navbar-brand:hover {
+  color: #1b88cd;
+  transition: 0.4s;
+}
+.navbar .navbar-nav {
+  font-size: 1.3rem;
+}

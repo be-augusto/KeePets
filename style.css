@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Ubuntu&family=Varela+Round&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif !important;
+  text-decoration: nome;
+  list-style: none;
+}
+@media only screen and (max-width: 992px)  {
+  .navbar .navbar-nav img{
+    margin-left: 2.7rem;
+  }
+}
+:root {
+  --bg-color: #def7ff;
+  --text-color: #fff;
+  --main-color: #fff;
+}
+body {
+  background-color: #fff;
+
+}
+/*NAV BAR*/
+.navbar {
+  background: #7cbfea!important;
+  box-shadow: 0 0 20px rgba(3, 3, 3, 0.2);
+}
+.navbar .navbar-brand {
+  font-size: 2rem;
+  color: #fff;
+}
+.navbar .navbar-brand:hover {
+  color: #def7ff;
+  transition: 0.4s;
+}
+
+.navbar .navbar-nav{
+
+  font-size: 1.3rem;
+}
+
+/* main */
+.container .tela {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 2rem;
+  margin-top: 8rem;
+}
+
+.container .tela h2,
+h3 {
+  text-align: center;
+  font-weight: bold;
+  color: #1b88cd;
+}
+
+/* Botões de serviço */
+.container .tela .botoes {
+  margin: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.container .tela .botoes .services-box .btn {
+  margin: 1rem;
+  border: #35d1ed solid;
+  border-radius: 1rem;
+  width: 8.5rem;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(3, 3, 3, 0.1);
+}
+
+.container .tela .botoes .services-box .btn .cor {
+  height: 100%;
+  width: 100%;
+
+  border-radius: 25px 25px 0 25px;
+}
+
+.container .tela .botoes .services-box .btn span {
+  color: #35d1ed;
+  font-size: 1.2rem;
+}
+
+.container .tela .botoes .services-box .btn .icons {
+  width: 70%;
+  height: 70%;
+  margin-bottom: 1rem;
+}
+
+/* Barra de pesquisa */
+
+.container .tela .buscas {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.container .tela .buscas .btn {
+  background-color: #35d1ed;
+  color: var(--text-color);
+  padding: 0.5rem;
+  width: 8rem;
+}
+
+/* FOOTER */
+
+#contact-area {
+  margin-top: 3.25rem;
+  text-align: center;
+}
+
+#contact-area h3 {
+  margin-bottom: 2rem;
+}
+.contact-box {
+  padding-bottom: 3.12rem;
+  margin-bottom: 3.12rem;
+  border-bottom: 1px solid #27187e;
+}
+
+.contact-title {
+  font-weight: bold;
+  color: #27187e;
+}
+
+/* Área de contactação */
+
+#msg-box p {
+  font-size: 1.5rem;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+  margin-bottom: 0.9rem;
+  border-radius: 0;
+}
+
+#contact-form .main-btn {
+  width: 7.5rem;
+  height: 3.25rem;
+  background-color: #27187e;
+  color: var(--text-color);
+  border: none;
+  border-radius: 5px;
+}
+
+#contact-form .main-btn:hover {
+  color: #b3b0b0;
+  transition: 0.3s;
+}
+
+/* Copyright */
+
+#copy-area {
+  background-color: #e3f4fa;
+}
+
+#copy-area .container {
+  padding: 10px 0;
+  text-align: center;
+}
+
+#copy-area .container span {
+  font-weight: bold;
+}

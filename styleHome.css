@@ -1,0 +1,103 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Ubuntu&family=Varela+Round&display=swap');
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif !important;
+  text-decoration: nome;
+  list-style: none;
+  
+}
+:root {
+  --bg-color: #def7ff;
+  --text-color: #fff;
+  --main-color: #35D1ED;
+}
+
+@media only screen and (max-width: 992px)  {
+  .navbar .navbar-nav img{
+    margin-left: 2.7rem;
+  }
+}
+
+/*NAVBAR*/
+.navbar {
+  background: #7cbfea!important;
+  box-shadow: 0 0 20px rgba(3, 3, 3, 0.2);
+}
+.navbar .navbar-brand {
+  font-size: 2rem;
+  color: #fff;
+}
+.navbar .navbar-brand:hover {
+  color: #1b88cd;
+  transition: 0.4s;
+}
+
+.navbar .navbar-nav{
+  font-size: 1.3rem;
+}
+
+/* MAIN */
+
+
+
+main .services {
+  background-color: #fff;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.10); */
+}
+
+main .services .container .bloco {
+ 
+  margin: 30px;
+  border-radius: 25px;
+  border: #35d1ed solid;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.10);
+}
+
+main .services .container .bloco:hover{
+  transition: 0.5s;
+  transform: scale(1.035);
+}
+
+
+main .services .container img {
+  width: 100px;
+  margin: 40px
+  
+}
+main .services .btn{
+    padding: 20px;
+    margin: 2rem;
+    background-color: #92dcff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.10);
+}
+main .services .btn a{
+    text-decoration: none;
+    color: #000;
+
+}
+
+
+
+/* SOBRE NOS */
+
+main .sobre-nos{
+  padding: 20px;
+  background-color: #e9f5f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.10);
+}
+
+main .sobre-nos .btn{
+  padding: 15px;
+  background-color: #c4eeff;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.10);
+}
+
+main .sobre-nos .btn a{
+  text-decoration: none;
+}
